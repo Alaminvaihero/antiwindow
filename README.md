@@ -52,3 +52,14 @@ Antivirus programme for win 11
    pip install pywin32
    python scan.py D:\Downloads for only download folder
    pip install yara-python pefile rich psutil pyamsi
+
+
+   # 1. কোডটি scan.py নামে সেভ করুন
+# 2. প্রয়োজনীয় লাইব্রেরি ইনস্টল করুন:
+pip install yara-python pefile rich psutil
+
+# 3. Windows এর C: ড্রাইভ স্ক্যান করতে (WSL-এ):
+python scan.py /mnt/c/
+
+# 4. অথবা নির্দিষ্ট ফোল্ডার স্ক্যান করতে:
+python scan.py "/mnt/c/Users/YourName/Downloads"
