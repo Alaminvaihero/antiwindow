@@ -45,9 +45,10 @@ Antivirus programme for win 11
 #### অপশন A: Git ব্যবহার করে (সহজ)
 1. [Git for Windows](https://git-scm.com/download/win) ইন্সটল করুন।
 2. Command Prompt খুলুন এবং নিচের কমান্ডটি রান করুন:
-   ```cmd
+
    git clone https://github.com/alaminvaihero
    pip install yara-python pefile rich psutil pyamsi
    python scan.py C:\
    pip install pywin32
-   
+   python scan.py D:\Downloads for only download folder
+   pip install yara-python pefile rich psutil pyamsi
